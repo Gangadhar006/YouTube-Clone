@@ -5,19 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00e3daf-0840-4828-8c8f-a679414627a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/ApiConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/SwaggerConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/ValidationConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/payload/request/SignInRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/repository/IUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/config/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/config/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/config/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/config/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/ApiConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/constant/ApiConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/constant/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/constant/SecurityConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/SwaggerConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/constant/SwaggerConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/constant/ValidationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/constant/ValidationConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/payload/request/SignInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/payload/request/SignInRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/payload/request/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/payload/request/SignUpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/payload/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/payload/response/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/payload/response/SignInResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/payload/response/SignInResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/payload/response/SignUpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/payload/response/SignUpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/repository/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/repository/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/service/IJwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/service/IJwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/serviceImpl/JwtServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/serviceImpl/JwtServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/youtube/user/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/youtube/user/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/youtube/user/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/com/youtube/user/UserApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +90,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.youtube.user.payload.response" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\micro-prac\YouTube-Clone\YouTube\user-service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.youtube.user.payload.response" />
       <recent name="com.youtube.user.payload.request" />
@@ -79,11 +103,18 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="user" />
+      <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.youtube.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.youtube.userservice.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715063483094</updated>
-      <workItem from="1715063484226" duration="9267000" />
+      <workItem from="1715063484226" duration="10482000" />
     </task>
     <servers />
   </component>
