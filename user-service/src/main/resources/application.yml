@@ -1,0 +1,21 @@
+#############################################################################
+# Database Configuration
+#############################################################################
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/youtube?createDatabaseIfNotExist=true
+    username: root
+    password: pass
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  #############################################################################
+  # Hibernate Configuration
+  #############################################################################
+  jpa:
+    hibernate:
+      ddl-auto: update
